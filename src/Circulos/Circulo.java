@@ -47,6 +47,13 @@ public class Circulo extends Figuras {
     protected double calcularArea(){
         return Math.pow(radio,2)*Circulo.PI;
     }
+
+    @Override
+    public String toString() {
+        return "Circulo{" + "radio=" + radio + '}';
+    }
+    
+    
     
     
     
