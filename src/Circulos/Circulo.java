@@ -34,7 +34,7 @@ public class Circulo extends Figuras {
     }
     
     
-    public double calcularDiametro(){
+    protected double calcularDiametro(){
         return radio*2;
     }
     

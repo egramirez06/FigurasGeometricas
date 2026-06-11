@@ -10,7 +10,6 @@ package figurasgeometricas;
  */
 public  abstract class Figuras {
     
-   
 
     public double getArea() {
         return calcularArea();
