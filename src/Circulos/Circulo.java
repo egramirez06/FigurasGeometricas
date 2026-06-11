@@ -34,10 +34,9 @@ public class Circulo extends Figuras {
     }
     
     
-    protected double calcularDiametro(){
+    private double calcularDiametro(){
         return radio*2;
     }
-    
     
     @Override
     protected double calcularPerimetro(){
