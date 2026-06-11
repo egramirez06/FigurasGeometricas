@@ -50,7 +50,12 @@ public class Circulo extends Figuras {
 
     @Override
     public String toString() {
-        return "Circulo{" + "radio=" + radio + '}';
+        return "Circulo{\nRadio: " + radio + 
+                "\ndiametro: " + getDiametro() +
+                "\nCircunferencia: " + getPerimetro() +
+                "\nArea: " + getArea() +
+                "\n}";
+                
     }
     
     
