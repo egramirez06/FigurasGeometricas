@@ -27,7 +27,7 @@ public class Cuadrado extends Rectangulo {
         return "Cuadrado{ " + 
                 "\nLado: " + base+ 
                 "\nPerimetro: " + getPerimetro() +
-                "\nArea: " + getArea() +
+                "\nArea: " + calcularArea() +
                 "\n}";
     }
     

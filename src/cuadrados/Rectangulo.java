@@ -47,7 +47,7 @@ public class Rectangulo extends Figuras {
                 "\nAltura: " + altura +
                 "\nDiagonal: " + calcularDiagonal() +
                 "\nPerimetro: " + getPerimetro() +
-                "\nArea: " + getArea() +
+                "\nArea: " + calcularArea() +
                 "\n}";
     }
     
